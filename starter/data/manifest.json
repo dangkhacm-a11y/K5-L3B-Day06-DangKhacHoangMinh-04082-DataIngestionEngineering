@@ -1,0 +1,20 @@
+{
+  "accessed_at": "2026-11-14",
+  "documents": [
+    {
+      "source_id": "openstax_college_success_excerpt",
+      "title": "College Success",
+      "source_path": "data/college-success_-_WEB (1).pdf",
+      "source_url": "https://openstax.org/details/books/college-success",
+      "license_or_permission": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0); attribute OpenStax and contributors.",
+      "physical_page_count": 61,
+      "content_pages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61],
+      "page_metadata_ranges": [
+        {"first_page": 1, "last_page": 21, "chapter": 1},
+        {"first_page": 22, "last_page": 55, "chapter": 2},
+        {"first_page": 56, "last_page": 61, "chapter": 3}
+      ],
+      "page_count_note": "The user replaced the earlier PDF with a 61-page excerpt from the same College Success source. All 61 physical pages contain extractable chapter text; counted physical PDF pages 1-61. Page references throughout the benchmark are these physical PDF page numbers."
+    }
+  ]
+}

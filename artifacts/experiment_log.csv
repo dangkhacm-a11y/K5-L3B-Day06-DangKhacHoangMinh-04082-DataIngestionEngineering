@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed characters,500,50,"source,page,chapter",none,"OpenAI text-embedding-3-small; pgvector cosine","Fixed windows provide baseline retrieval; overlap may retain boundary context.",9/15,10/15,3/5,3/5,"407 chunks; elapsed 8.002s; cost/token usage not captured."
+B,paragraph-aware,900,0,"source,page,chapter",none,"OpenAI text-embedding-3-small; pgvector cosine","Paragraph-aware chunks should preserve more complete ideas than fixed windows.",9/15,11/15,4/5,4/5,"221 chunks; elapsed 4.567s; cost/token usage not captured."
+C,paragraph-aware,900,0,"source,page,chapter","chapter filter when requested","OpenAI text-embedding-3-small; pgvector cosine","Chapter filter should enforce scope on questions that request it.",9/15,11/15,4/5,4/5,"221 chunks; elapsed 1.108s excluding reused embeddings; all filtered top-3 complied; cost/token usage not captured."

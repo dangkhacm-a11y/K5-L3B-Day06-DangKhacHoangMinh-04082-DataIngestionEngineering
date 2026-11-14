@@ -1,0 +1,162 @@
+[
+  {
+    "id": "q01", "split": "dev",
+    "question": "According to the text, what commitment does choosing college involve?",
+    "expected_answer": "It involves committing several years of hard work to earn a degree or credential.",
+    "gold_source_id": "openstax_college_success_excerpt", "gold_page": 1,
+    "evidence_quote": "You have made a choice to commit several years of hard work to earn a degree or credential.",
+    "filter": {}
+  },
+  {
+    "id": "q02", "split": "dev",
+    "question": "In the Five Whys example, why does the student want to earn a speech pathology degree?",
+    "expected_answer": "She wants to help people who have trouble speaking.",
+    "gold_source_id": "openstax_college_success_excerpt", "gold_page": 2,
+    "evidence_quote": "I am in college to earn a degree in speech pathology. Why do you want to earn a degree in speech pathology? I want to be able to help people who have trouble speaking.",
+    "filter": {}
+  },
+  {
+    "id": "q03", "split": "dev",
+    "question": "Name one employment benefit of a college degree mentioned in the text.",
+    "expected_answer": "Greater job stability: degree holders are more likely to find and keep a job.",
+    "gold_source_id": "openstax_college_success_excerpt", "gold_page": 4,
+    "evidence_quote": "Better job stability. Employees with college degrees are more likely to find and keep a job",
+    "filter": {}
+  },
+  {
+    "id": "q04", "split": "dev",
+    "question": "What can college relationships with professors help students do, besides learn in class?",
+    "expected_answer": "They can help students explore career pathways and learn how to obtain internships and jobs.",
+    "gold_source_id": "openstax_college_success_excerpt", "gold_page": 6,
+    "evidence_quote": "Getting to know professors not only can help you learn more in your classes, but it can also help you figure out what career pathway you want to take and how to get desired internships and jobs.",
+    "filter": {}
+  },
+  {
+    "id": "q05", "split": "dev",
+    "question": "What are office hours, according to the college terminology table?",
+    "expected_answer": "Specific hours when a professor is in the office to meet with students.",
+    "gold_source_id": "openstax_college_success_excerpt", "gold_page": 10,
+    "evidence_quote": "Office hours Specific hours professor is in the office to meet with students",
+    "filter": {}
+  },
+  {
+    "id": "q06", "split": "dev",
+    "question": "How does the text define plagiarism?",
+    "expected_answer": "Using someone else's words, images, or ideas as your own without proper attribution.",
+    "gold_source_id": "openstax_college_success_excerpt", "gold_page": 10,
+    "evidence_quote": "Plagiarism Using someone’s words, images, or ideas as your own, without proper attribution",
+    "filter": {}
+  },
+  {
+    "id": "q07", "split": "dev",
+    "question": "In the college culture and expectations chapter, who is responsible for recognizing that a student needs help and accessing resources?",
+    "expected_answer": "The student is responsible for identifying the need, accessing resources, and using them.",
+    "gold_source_id": "openstax_college_success_excerpt", "gold_page": 13,
+    "evidence_quote": "You will be responsible for identifying that you need it, accessing the resources, and using them.",
+    "filter": {"chapter": 1}
+  },
+  {
+    "id": "q08", "split": "dev",
+    "question": "What does the text recommend doing before class?",
+    "expected_answer": "Read the assigned chapter, take notes, and record questions about the reading.",
+    "gold_source_id": "openstax_college_success_excerpt", "gold_page": 14,
+    "evidence_quote": "Before class: Read the assigned chapter, take notes, record any questions you have about the reading.",
+    "filter": {}
+  },
+  {
+    "id": "q09", "split": "dev",
+    "question": "If a student cannot attend class, what actions does the text suggest?",
+    "expected_answer": "Communicate with the professor, get notes from a classmate, and check for anything missed.",
+    "gold_source_id": "openstax_college_success_excerpt", "gold_page": 14,
+    "evidence_quote": "Absent: Communicate with the professor, get notes from a classmate, make sure you did not miss anything important in your notes.",
+    "filter": {}
+  },
+  {
+    "id": "q10", "split": "dev",
+    "question": "What does the ownership-of-learning self-assessment ask students to take responsibility for?",
+    "expected_answer": "How much and how well they learn.",
+    "gold_source_id": "openstax_college_success_excerpt", "gold_page": 15,
+    "evidence_quote": "I believe how much I learn and how well I learn is my responsibility.",
+    "filter": {}
+  },
+  {
+    "id": "q11", "split": "dev",
+    "question": "What do successful students do when they need support?",
+    "expected_answer": "They seek help and use available resources as often as needed.",
+    "gold_source_id": "openstax_college_success_excerpt", "gold_page": 17,
+    "evidence_quote": "successful students seek help. They use resources. And they do that as often as necessary to get what they need.",
+    "filter": {}
+  },
+  {
+    "id": "q12", "split": "dev",
+    "question": "What is the name of the condition described as worrying that you do not belong and may be exposed as a fake?",
+    "expected_answer": "Imposter syndrome.",
+    "gold_source_id": "openstax_college_success_excerpt", "gold_page": 18,
+    "evidence_quote": "There is actually a name for this condition: imposter syndrome.",
+    "filter": {}
+  },
+  {
+    "id": "q13", "split": "dev",
+    "question": "What does the Strides app help students create and track?",
+    "expected_answer": "SMART goals and daily habits.",
+    "gold_source_id": "openstax_college_success_excerpt", "gold_page": 19,
+    "evidence_quote": "app provides you with the opportunity to create SMART (Specific, Measureable, Attainable, Relevant, and Time bound) goals and track daily habits.",
+    "filter": {}
+  },
+  {
+    "id": "q14", "split": "dev",
+    "question": "How do the Student Survey Questions help students develop purpose?",
+    "expected_answer": "They build self-awareness, which helps students become more aware of their purpose.",
+    "gold_source_id": "openstax_college_success_excerpt", "gold_page": 20,
+    "evidence_quote": "It allows you to develop better self-awareness, which will in turn help you build an awareness of your purpose.",
+    "filter": {}
+  },
+  {
+    "id": "q15", "split": "dev",
+    "question": "According to the chapter summary, what provides a foundation for a smooth transition to college?",
+    "expected_answer": "Understanding why one is in college and what a college degree can do.",
+    "gold_source_id": "openstax_college_success_excerpt", "gold_page": 21,
+    "evidence_quote": "Understanding why you are in college and what a college degree can do for you is the foundation of making a smooth transition.",
+    "filter": {}
+  },
+  {
+    "id": "q16", "split": "test",
+    "question": "What did the cited study find about grit and perseverance compared with talent or IQ?",
+    "expected_answer": "They were better predictors of academic success and achievement than talent or IQ.",
+    "gold_source_id": "openstax_college_success_excerpt", "gold_page": 28,
+    "evidence_quote": "grit and perseverance were better predictors of academic success and achievement than talent or IQ.",
+    "filter": {"chapter": 2}
+  },
+  {
+    "id": "q17", "split": "test",
+    "question": "What four words make up Paul G. Stoltz's GRIT acronym?",
+    "expected_answer": "Growth, Resilience, Instinct, and Tenacity.",
+    "gold_source_id": "openstax_college_success_excerpt", "gold_page": 29,
+    "evidence_quote": "His acronym is Growth, Resilience, Instinct, and Tenacity.",
+    "filter": {"chapter": 2}
+  },
+  {
+    "id": "q18", "split": "test",
+    "question": "What did the research behind Uses and Gratification Theory suggest about people's information choices?",
+    "expected_answer": "People actively choose information based on their needs, goals, and personal opinions.",
+    "gold_source_id": "openstax_college_success_excerpt", "gold_page": 31,
+    "evidence_quote": "our own needs, goals, and personal opinions are bigger drivers for our choices in information than anything else. This gave rise to what became known as the Uses and Gratification Theory (UGT).",
+    "filter": {"chapter": 2}
+  },
+  {
+    "id": "q19", "split": "test",
+    "question": "What does the text recommend instead of relying on a single learning style?",
+    "expected_answer": "Choose media that fit the learning need at the time rather than being constrained by one style.",
+    "gold_source_id": "openstax_college_success_excerpt", "gold_page": 43,
+    "evidence_quote": "Rather than being constrained by a single learning style, or limiting your activities to a certain kind of media, you may choose media that best fit your needs for what you are trying to learn at a particular time.",
+    "filter": {"chapter": 2}
+  },
+  {
+    "id": "q20", "split": "test",
+    "question": "According to the K–12 and college comparison, who manages time more often in college?",
+    "expected_answer": "The student manages time more often in college.",
+    "gold_source_id": "openstax_college_success_excerpt", "gold_page": 60,
+    "evidence_quote": "Time is managed by the student.",
+    "filter": {"chapter": 3}
+  }
+]

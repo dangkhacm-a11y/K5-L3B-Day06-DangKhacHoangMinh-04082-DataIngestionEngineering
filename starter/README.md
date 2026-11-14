@@ -60,6 +60,10 @@ docker compose -p day6_student_starter stop
 2. Hoàn thiện từng hàm TODO trong `src/`. Lưu ID tài liệu, nguồn, trang/vị trí và ít nhất một trường filter có ích.
 3. Xây ít nhất ba cấu hình; ví dụ A fixed-size, B theo đoạn, C như B nhưng có filter. Cần cùng corpus, model và benchmark; nạp lại không nhân đôi và xử lý chunk cũ khi dữ liệu đổi.
 4. Tự viết ít nhất 20 câu hỏi kèm evidence, tách dev/test trước khi thử theo [BENCHMARK.md](../BENCHMARK.md). Lưu trace top-3 và báo cáo đủ năm tiêu chí.
-5. Sau khi hoàn thiện, chạy `python -m src.run` từ thư mục `starter/`. Trước khi làm TODO, lệnh này **chủ động báo `NotImplementedError`**.
+5. Chuẩn bị `data/manifest.json` theo mẫu hiện có và `benchmark/questions.json` (ít nhất 20 câu đã kiểm chứng, chia 15 dev / 5 test, có ít nhất 3 câu filter). Sau khi Docker đang chạy và các tệp này sẵn sàng, chạy `python -m src.run` từ thư mục `starter/`. Pipeline lưu trace top-3 ở `results/retrieval_traces.json` và số liệu retrieval ở `results/retrieval_summary.json`.
+
+Pipeline dùng OpenAI Embeddings với model khai báo trong `.env` (mặc định `text-embedding-3-small`, 1536 chiều), PostgreSQL + pgvector và cosine distance. Chiến lược A dùng cửa sổ 500 ký tự, overlap 50; B dùng gom đoạn văn tối đa 900 ký tự; C giữ chunk như B và chỉ áp dụng metadata filter khi câu hỏi có `filter`. Chạy lại sẽ thay dữ liệu của từng chiến lược để tránh nhân đôi.
+
+Không chạy pipeline trước khi evidence trong benchmark được người làm kiểm tra trực tiếp trong PDF và đã chốt split. Việc gọi API embeddings có thể phát sinh phí. Đánh giá coherence và grounding vẫn cần người chấm thủ công theo `GUIDE.md`; các trace tự động không tạo ra nhãn này.
 
 Lưu code, cấu hình, kết quả và lệnh chạy để người chấm tái lập; không commit key, dữ liệu mật hoặc dữ liệu không có quyền chia sẻ.
